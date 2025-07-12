@@ -1,25 +1,45 @@
+# ───────────────────────────────────────────
 # Site settings
-title: Neva Crounse
-description: Art Gallery. Based in Greece. Inquries: nevacrounse14@gmail.com
-baseurl: "/lens-jekyll-theme" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-author: Neva Crounse
+# ───────────────────────────────────────────
+title: "Neva Crounse"
+description: "Heraklion, Greece · Inquiries: nevacrounse14[at]gmail.com"
+author: "Neva Crounse"
+email:
 
+# With a custom domain you serve from the root,
+# so baseurl stays empty and url is your domain.
+baseurl: ""                    # e.g. "" for https://neva.wtf/
+url: "https://neva.wtf"        # full URL including protocol
+
+# ───────────────────────────────────────────
 # Collection settings
+# ───────────────────────────────────────────
 collections:
   photos:
+    output: true               # makes each photo page renderable if needed
 
-# Social settings
+# ───────────────────────────────────────────
+# Social links (add handles/URLs when ready)
+# ───────────────────────────────────────────
 500px_url:
 facebook_url:
 github_url:
-gitlab_url: 
-googleplus_url: 
+gitlab_url:
 instagram_url:
 linkedin_url:
 pinterest_url:
 slack_url:
-twitter_url: 
+twitter_url:
 
+# ───────────────────────────────────────────
 # Build settings
+# ───────────────────────────────────────────
 markdown: kramdown
+kramdown:
+  input: GFM                   # GitHub-flavoured Markdown
+
+# Optional: keep these files out of the production build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
