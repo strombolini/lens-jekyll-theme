@@ -1,6 +1,5 @@
 ---
-title: Nullam vitae nunc vulputate
-image: assets/images/fulls/05.jpg
-thumbnail: assets/images/thumbs/05.jpg
-caption: In pellentesque cursus velit id posuere. Donec vehicula nulla.
+title: face1
+image: assets/images/fulls/face1.jpeg
+thumbnail: assets/images/fulls/face1.jpeg
 ---
